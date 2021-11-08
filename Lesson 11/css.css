@@ -1,0 +1,32 @@
+.white{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px gray;
+    height: 600px;
+    width: 60%;
+}
+.red{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+.main{
+    height: 600px;
+    width: 60%;
+    background-color: white;
+    border: solid 1px gray;
+   margin-top: 50px;
+}
+.round{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
