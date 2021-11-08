@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap');
+
+h1 {
+    font-size: 50px;
+}
+
+
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    color:rgb(28, 52, 190)
+
+}
+ul{
+   list-style-type: square;
+}
+a{
+    color:rgb(53, 1, 240)
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h2{
+    color: rgb(96, 33, 243);
+}
+body{
+    background-color: rgb(186, 191, 238);
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    
+}
+body{
+    font-family: 'Yaldevi', sans-serif;
+}
+p{
+    color: rgb(26, 0, 172);
+}

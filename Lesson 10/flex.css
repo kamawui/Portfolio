@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+.header{
+    height: 200px;
+    background-color: brown;
+}
+body{
+    width: 1000px;
+}
+h1{
+    text-align: center;
+    line-height: 200px;
+}
+.center{
+    width: 1000px;
+    height: 800px;
+}
+.left{
+    height: 800px;
+    width: 200px;
+    background-color: burlywood;
+}
+.right{
+    height: 800px;
+    width: 800px;
+    background-color: chocolate;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    
+}
+.center{
+    display: flex;
+}
+.footer{
+    height: 200px;
+    background-color: coral;
+    
+    justify-content: center;
+}
+.brothers{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(88, 53, 6);
+    border: chocolate solid 10px;  
+    margin-bottom: 10%;
+}
+.img{
+    width: 600px;
+    height: 500px;
+}
+ul{
+    list-style-type: none;
+    text-align: start;
+    line-height: 40px;
+    color: rgb(109, 7, 27);
+}
+img{
+    position: absolute;
+    transform: translate(-10%, -300%);
+}

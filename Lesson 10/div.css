@@ -1,0 +1,92 @@
+.top{
+  width: 700px;
+    background-color: rgb(124, 75, 118);
+    margin: auto;
+}
+.yellow{
+    height: 300px;
+    background-color: rgb(15, 65, 201);
+}
+
+.red {
+    height: 300px;
+    background-color: rgb(241, 238, 15);
+    background-image: url(https://static.wikia.nocookie.net/anime-characters-fight/images/8/8a/Dio.jpg/revision/latest/scale-to-width-down/700?cb=20181110193813&path-prefix=ru);
+    width: 700px;
+    }
+.pink{
+    height: 1050px;
+    background-color: pink;
+    background-image: url(https://cosplayfu-website.s3.amazonaws.com/_Upload/b/47316-Jonathan-Joestar-Costume-from-JoJo-s-Bizarre-Adventure.jpg);
+    
+}
+.green{
+    height: 400px;
+    background-color: green;
+    background-image: url(https://static.fandomspot.com/images/08/8186/12-josuke-higashikata-jojos-bizarre-adventure.jpg);
+}
+.orange{
+    height: 1000px;
+    background-color: black;
+}
+.purple {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(178, 15, 228);
+}
+.black{
+ background-color: black;
+ height: 200px;
+ width: 200px;
+}
+.gray{
+ background-color: gray;
+ height: 200px;
+ width: 200px;
+}
+.child{
+    display: inline-block;
+}
+.er{
+    background-color: green;
+    height: 200px;
+    width: 608px;
+}
+.mom{
+    display: inline-block;
+}
+.yellow{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}
+.blue{
+    height: 300px;
+    width: 304px;
+    background: blue;
+}
+.bot{
+    background-color: burlywood;
+    height: 500px;
+    width: 1000px;
+}
+.dad {
+    border: solid 1px 20px;
+    display: inline-block;
+    
+}
+.bluee{
+background-color: darkblue;
+height: 200px;
+width: 33%;
+}
+.greenn{
+    height: 200px;
+ width: 33%;
+ background-color: darkgreen;
+}
+.redd{
+    height: 200px;
+    width: 33%;
+    background-color: darkred;
+}

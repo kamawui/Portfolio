@@ -1,0 +1,19 @@
+h1 span {
+    color: rgb(250, 0, 0);
+}
+h1{
+    text-align: center;
+}
+td{
+    border: rgb(207, 82, 82) 1px solid;
+}
+p{
+    text-align: center;
+}
+.pro {
+    width: 500px;
+    height: 1000px;
+}
+td{
+    font-size: large;
+}

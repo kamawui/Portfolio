@@ -1,0 +1,18 @@
+tr{
+    font-size: large;
+    font-family: Verdana;
+}
+td, th {
+    border: 2px solid rgb(4, 20, 231);
+    height: 90px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(blue, pink);
+    table-layout: fixed;
+}
+body{
+    background-image:url() ;
+}
