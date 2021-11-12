@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 800px;
+    display: flex;
+}
+.contact{
+    width: 50%;
+    height: 100%;
+}
+.hello{
+    width: 50%;
+    height: 100%;
+    background-color: turquoise;
+}
+.duck{
+    text-decoration: none;
+}
+.duck:hover .round{
+    background-color:rgb(80, 80, 80);
+}
+.duck:hover .link{
+    color: white;
+}
+.link{
+    color: rgb(80, 80, 80);
+    font-size: larger;
+    line-height: 12px;
+}
+.round{
+    width: 50px;
+    height: 50px;
+    border: gray 1px solid;
+    border-radius: 50%;
+    margin: 20px;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+.form{
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+.email{
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.phone{
+    text-align: center;
+    margin-top: 20px;
+}
+.message{
+    color:rgb(80, 80, 80);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.type{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    border: solid 1px rgb(80, 80, 80);
+    
+}
+.here{
+    text-align: center;
+}
+.help{
+    color:rgb(80, 80, 80);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+hr{
+    text-align: center;
+    width: 160px;
+    color:rgb(80, 80, 80) ;
+    height: 0;
+    padding: 0;
+    border: none;
+    border-top: 2px dashed rgb(80, 80, 80)  ;
+}
+.button{
+    text-align: center;
+    margin-top: 60px;
+   
+}
+.put{
+    background-color: turquoise;
+    border-radius: 60px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+}
+.user{
+    color: white;
+    margin-top: 300px;
+}
+.than{
+    color: white;
+    text-align: center;
+}
+.brando{
+    background-color: turquoise;
+    border: 1px solid white;
+    width: 15%;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.za-warudo{
+    text-align: center;
+}
