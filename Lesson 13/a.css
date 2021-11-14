@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    font-size: 20px;
+}
+.visit:visited{
+    color: red;
+}
+.link:link{
+    color: blue;
+}
+.hov:hover{
+    font-size: 30px;
+}
+.act:active{
+    color: blueviolet;
+}
+.foc:focus{
+   color: cadetblue;
+}
+form{
+    display: flex;
+}
+input{
+    margin-left: 30px;
+}
+h2{
+    margin-left: 10px;
+}
+p:first-child{
+    color: chartreuse;
+}
+p:last-child{
+    color: coral;
+}
+body{
+   background: linear-gradient(rgb(174, 174, 240), rgb(148, 161, 218));
+}
