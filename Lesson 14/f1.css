@@ -1,0 +1,79 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626291668_21-kartinkin-com-p-serii-fon-geometriya-krasivo-23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr{
+    width: 80%;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+}
+input{
+    border: solid 2px rgb(117, 117, 117);
+    width: 80px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+.example{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.begin{
+    height: 500px;
+    width: 900px; 
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    left: 470px;
+    border-radius: 5px;
+}
+.master{
+    height: 650px;
+    width: 900px; 
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    left: 470px;
+    border-radius: 5px;
+}
+.my{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+    border-radius: 10px;
+}
+.my:hover{
+    height: 160px;
+    width: 260px;
+    background-color:rgb(245, 245, 245);
+    transition: 0.1s;
+    
+
+}
+.main{
+    height: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.sprint-1{
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+.card{
+    position: relative;
+    left: 135px;
+    top: -20px;
+    color: rgb(117, 117, 117);
+}
