@@ -13,6 +13,7 @@
     width: 50%;
     height: 100%;
     background-color: turquoise;
+    border-radius: 20px;
 }
 .duck{
     text-decoration: none;
