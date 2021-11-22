@@ -1,0 +1,17 @@
+a {text-decoration: none;}  
+div {font-family: monospace;}
+ul {background: orangered;list-style: none;margin: 0;padding-left: 0;}
+li {color: #fff;background: orangered;display: block;float: left;padding: 1rem;position: relative;text-decoration: none;transition-duration: 0.5s;}   
+li a { color: #fff;}
+li:hover { background: red; cursor: pointer;}
+ul li ul {visibility: hidden;opacity: 0;  min-width: 5rem;    position: absolute;  transition: all 0.1 ease;margin-top: 1rem;left: 0;display: none;}
+ul li:hover > ul,
+ul li ul:hover {visibility: visible; opacity: 1; display: block;}
+ul li ul li:hover > ul,
+ul li ul li ul:hover{visibility: visible; opacity: 1; display: block;}
+ul li ul li ul{ left: 135px;top: 0px; position: absolute; min-width: 5rem; opacity: 0;}
+ul li ul li ul li ul{position: absolute; min-width: 5rem; opacity: 0; left: 100px;}
+ul li ul li ul li:hover > ul,
+ul li ul li ul li ul:hover{visibility: visible; opacity: 1; display: block;}
+ul li ul li {clear: both;width: 100%;}
+body{background-color: rgb(29, 29, 29);}
