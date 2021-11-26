@@ -16,6 +16,7 @@ ul li ul li ul li:hover > ul,
 ul li ul li ul li ul:hover{visibility: visible; opacity: 1; display: block;}
 ul li ul li {clear: both;width: 100%;}
 body{background-color: rgb(29, 29, 29);}
-.about{padding-right: 905px;}
+.line{padding-right: 65.5%; padding-bottom: 28px;}
+.line:hover{background: orangered; cursor:default;}
 h1{color: white; font-size: 40px; text-align: center;padding-top:120px ;}
 p{color: white; font-size: 15px; text-align: center;}
