@@ -14,7 +14,7 @@
     background-color: rgb(255, 213, 27);
 }
 .card:hover{
-    
+    transition-duration: 0.2s;
     padding: 50px;
 }
 .back{
