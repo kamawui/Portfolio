@@ -1,8 +1,16 @@
+
 body{
     width: 1445px;
     height: 2300px;
     margin: 0 auto;
-
+    padding-top: 0;
+}
+.main{
+    background-color: rgb(240, 240, 240) ;
+    width: 1500px;
+    height: 100%;
+    position: absolute;
+    top: -10px;
 }
 .first:first-child{
     color: #070707;
@@ -18,6 +26,34 @@ body{
 }
 .navigation{
     text-align: center;
+}
+.family{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top: 60px;
+}
+.adobe{
+    width: 166px;
+    height: 205px;
+    margin: 50px;
+}
+.photoshop{
+    width: 166px;
+    height: 205px;
+}
+.illustrator{
+    width: 166px;
+    height: 205px;
+}
+.affect{
+    width: 166px;
+    height: 205px;
+}
+.figma{
+    width: 166px;
+    height: 205px;
 }
 hr{
     width: 980px;
