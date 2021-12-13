@@ -57,14 +57,14 @@ body{
     height: 205px;
 }
 hr{
-    width: 980px;
+    width: 1020px;
     position: relative;
     left: 20px;
 }
 .name{
     justify-content: space-between;
     display: flex;
-    width: 1070px;
+    width: 1045px;
     margin: 0 auto;
     margin-left: 250px;
 }
@@ -166,17 +166,25 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.one{
-    background-image: url('Group2.png');
+.star{
+    height: 50px;
+    width: 166px;
+    display: flex;
+    justify-content: space-between;
 }
-.two{
-    background-image:url('Group8.png') ;
+.fig{
+    padding-top: 15px;
 }
-.three{
-    background-image: url('Group9.png');
+.abode{
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.four{
-    background-image: url('Group10.png');
+.pht{
+    padding-top: 40px ;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0 auto;
+    color: #828282;
 }
 .last{
     text-align: center;
@@ -184,10 +192,34 @@ h5{
     margin-top: 60px;
     
 }
+.drop{
+    width: 120px;
+    width: 60px;
+}
+.hide{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
 @media(max-width: 600px){
+    .modal{
+        display: block;
+        position: relative;
+        left: 400px;
+        top: 160px;
+    }
+    .navigation{
+        
+        display: none;
+    }
+    hr{
+        display: none;
+    }
     .main{
         width: 600px;
-        height: 4500px;
+        height: 4200px;
     }
     .name{
         display: block;
@@ -211,7 +243,7 @@ h5{
     }
     .feet{
         width: 600px;
-        height: 1600px;
+        height: 1400px;
     }
     .family{
         width: 600px;
@@ -219,7 +251,7 @@ h5{
         flex-direction: column;
         
         align-items: center;
-        height: 1400px;
+        height: 1200px;
         margin: 0;
     }
     .adobe{
@@ -248,9 +280,15 @@ h5{
     display: inline;
     list-style-type: none;
     line-height: 22px;
+    
 }
 .lang{
     transform: rotate(-90deg);
+    margin: 10px;
+}
+.ru{
+    position: relative;
+    top: 28px;
 }
 .rus{
     color: gray;
@@ -264,4 +302,28 @@ h5{
 .eng{
     color: gray;
     font-size: 15px;
+}
+.in{
+    border-radius: 5px;
+}
+.in:hover{
+    background-color: rgb(204, 204, 204);
+}
+.inst{
+    border-radius: 11px;
+}
+.inst:hover{
+    background-color: rgb(204, 204, 204);
+}
+.be{
+    border-radius: 5px;
+}
+.be:hover{
+    background-color: rgb(204, 204, 204);
+}
+.ball{
+    border-radius: 50%;
+}
+.ball:hover{
+    background-color: rgb(204, 204, 204);
 }
