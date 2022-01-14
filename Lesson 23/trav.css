@@ -541,3 +541,78 @@ h4{
     width: 1041px;
     height: 140px;
 }
+.table-text{
+    margin: 0;
+    padding: 0;
+}
+.imp-news{
+    width: 1440px;
+    height: 620px;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+}
+.news{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    justify-content: center;
+}
+.news-actual{
+    width: 252px;
+}
+.act-photo-first{
+    background-image: url('news_20170411_091637_1491891397 1.png');
+    width: 252px;
+    height: 179px;
+    background-repeat: no-repeat;
+}
+.act-photo-second{
+    background-image: url('p184j411emam71qc8tc16kjl125 1.png');
+    background-repeat: no-repeat;
+    width: 252px;
+}
+.act-photo-third{
+    background-image: url('1615470437_162 1.png');
+    background-repeat: no-repeat;
+    width: 252px;
+}
+.act-photo-fourth{
+    background-image: url('montenegro-hero 2.png');
+    background-repeat: no-repeat;
+    width: 252px;
+}
+.actual-news-first{
+    height: 40%;
+}
+.news-date{
+    color:  #BBBBBB;
+    font-size: 14px;
+}
+.zimovka{
+    width: 195px;
+    height: 49px;
+    font-size: 20px;
+    color: #323232;
+}
+.news-more{
+    color: #232323;
+    width: 80px;
+    border-bottom: 1px solid #232323;
+}
+.news-more:hover{
+    color: #DD4053;
+    border-bottom: #DD4053 1px solid;
+}
+.news-info{
+    height: 60%;
+    width: 252px;
+}
+.footer{
+    width: 1440px;
+    height: 370px;
+    background-image:url('SloveniaHeader 3.png');
+    margin: 0 auto;
+}
+
+
